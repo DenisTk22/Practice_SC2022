@@ -77,6 +77,6 @@ PrintMatrix(matrix);
 Console.WriteLine();
 int [] arr = SumRow(matrix);
 Console.WriteLine();
-Console.WriteLine($"Сумма по строкам: {string.Join(",", arr)}");
+Console.WriteLine($"Сумма по строкам: {string.Join(", ", arr)}");
 Console.WriteLine();
 minSumRow(arr);

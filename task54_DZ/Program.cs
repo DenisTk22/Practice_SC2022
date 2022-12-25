@@ -68,5 +68,3 @@ PrintMatrix(matrix);
 Console.WriteLine();
 int [,] newmatrix = NewMassiv(matrix);
 PrintMatrix(newmatrix);
-
-// комментарий
