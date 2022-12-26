@@ -3,8 +3,8 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int n1 = 2;
-int n2 = 3;
+int m1 = 4;
+int n1 = 8;
 int sum (int m, int n)
 {
     if(m < 0) return -1;
@@ -13,4 +13,4 @@ int sum (int m, int n)
     return s;
 }
 
-Console.WriteLine(sum(n1, n2));
+Console.WriteLine(sum(m1, n1));

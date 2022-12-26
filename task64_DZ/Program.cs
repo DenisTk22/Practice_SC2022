@@ -5,6 +5,7 @@
 
 
 int num = 8;
+
 void natur (int n)
 {
     if(n <= 0) return;
