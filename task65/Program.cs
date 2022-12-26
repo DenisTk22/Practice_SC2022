@@ -4,12 +4,12 @@
 
 int num = 4;
 int numup = 8;
-int natur (int n, int m)
+int natur (int m, int n)
 {
-    if(n < 0) return -1;
-    if(n == m) return n;
-    Console.Write(natur(n, m-1));
-    return m;
+    if(m < 0) return -1;
+    if(m == n) return m;
+    Console.Write(natur(m, n-1));
+    return n;
 }
 
 Console.WriteLine(natur(num, numup));

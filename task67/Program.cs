@@ -3,7 +3,6 @@
 // 45 -> 9
 
 int num = 453;
-//int s = 0;
 int sum (int n)
 {
     if(n <= 0) return -1;
